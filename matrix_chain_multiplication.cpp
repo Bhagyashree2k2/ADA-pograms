@@ -45,6 +45,6 @@ int main()
         cin>>arr[i];
     }
     int size = sizeof(arr)/sizeof(arr[0]);
-    cout<<"Minimum number of multiplications is "<<MatrixChainMultiplication(arr, size));
+    cout<<"Minimum number of multiplications is "<<MatrixChainMultiplication(arr, size);
     return 0;
 }
